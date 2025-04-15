@@ -4,6 +4,16 @@
 
 [📌Script de povoamento esquema relacional](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/t01/tarefa01-inserts.sql)
 
+[📌Questão 01](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/t01/tarefa01-q01.sql)
+
+[📌Questão 04](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/t01/tarefa01-q04.sql)
+
+[📌Questão 07](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/t01/tarefa01-q07.sql)
+
+[📌Questão 10](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/t01/tarefa01-q10.sql)
+
+[📌Questão 13](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/t01/tarefa01-q13.sql)
+
 ## 🔄 Sobre `NATURAL JOIN` e `CROSS JOIN`
 
 ### ✅ `NATURAL JOIN`
