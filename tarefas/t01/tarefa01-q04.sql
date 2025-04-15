@@ -1,12 +1,9 @@
-create view gerentes as
-SELECT d.codGerente
-    FROM departamento d
-    WHERE d.codGerente IS NOT NULL;
-
-SELECT f.nome, f.salario,f.codigo
+SELECT f.nome, f.salario, d.descricao AS departamento
 FROM funcionario f
-JOIN departamento d ON f.codDepto = d.codigo
+JOIN departamento d ON f.cod_depto = d.codigo
 WHERE f.codigo NOT IN (
-    SELECT * from gerentes
+    SELECT cod_gerente
+    FROM departamento
+    WHERE cod_gerente IS NOT NULL
 )
 ORDER BY d.codigo;
