@@ -23,3 +23,30 @@ for row in cursor.fetchall():
     print(row)
 ```
 
+## 🧱 Resumo sobre ORM em Django
+
+
+O Django possui um ORM (Object-Relational Mapper) nativo e poderoso, que permite trabalhar com tabelas do banco de dados como se fossem objetos Python. Ele abstrai SQL cru, melhora a legibilidade e segurança da aplicação, e integra-se diretamente ao sistema de migrações e validação do Django.
+
+Exemplo:
+
+```python
+# models.py
+from django.db import models
+
+class Projeto(models.Model):
+    nome = models.CharField(max_length=100)
+
+class Atividade(models.Model):
+    descricao = models.TextField()
+    projeto = models.ForeignKey(Projeto, on_delete=models.CASCADE)
+```
+
+Com isso, é possível realizar operações como:
+
+```python
+from app.models import Projeto
+
+projetos = Projeto.objects.all()
+
+```
