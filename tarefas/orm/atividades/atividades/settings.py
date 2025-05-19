@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'atividades.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'AtividadesBD',
+        'NAME': 'atividade_bd',
         'USER': 'admin',
         'PASSWORD': 'admin123',
         'HOST': 'localhost',
