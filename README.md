@@ -6,3 +6,5 @@ Repositório dedicado a tarefas, desafios e treinamentos da disciplina de Projet
 - 📧 **E-mail:** jose.alves.092@ufrn.edu.br
 
 [Tarefa 01](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/t01/tarefa01.md)
+
+[Tarefa ORM](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/orm/tarefa-orm.md)

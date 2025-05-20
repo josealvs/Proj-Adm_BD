@@ -1,3 +1,8 @@
+## LINKS
+[Script ODBC](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/orm/odbc_program.py)
+[Script1 ORM Django](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/orm/atividades/insert_atividade.py)
+[Script2 ORM Django](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/orm/atividades/insert_lider.py)
+[Script3 ORM Django](https://github.com/josealvs/Proj-Adm_BD/blob/main/tarefas/orm/atividades/select_all_projects.py)
 
 ## 📚 Resumo sobre ODBC em Python
 
